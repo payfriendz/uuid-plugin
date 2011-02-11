@@ -6,11 +6,13 @@ Gem::Specification.new do |s|
   s.name        = "uuid_extension"
   s.version     = UuidExtension::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Sebastian"]
+  s.authors     = ["Sebastian Cohnen"]
   s.email       = [""]
   s.homepage    = ""
   s.summary     = %q{A before create that set the ID using uuid}
   s.description = %q{A before create that set the ID using uuid}
+
+  s.add_dependency 'activerecord', '~> 3.0.4'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
