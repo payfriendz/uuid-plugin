@@ -13,6 +13,9 @@ Gem::Specification.new do |s|
   s.description = %q{A before create that set the ID using uuid}
 
   s.add_dependency 'activerecord', '~> 3.0.4'
+  s.add_dependency 'activesupport', '~> 3.0.4'
+  s.add_dependency 'uuidtools'
+  s.add_dependency 'sqlite3'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
