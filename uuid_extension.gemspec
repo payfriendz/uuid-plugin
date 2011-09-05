@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.summary     = %q{A before create that set the ID using uuid}
   s.description = %q{A before create that set the ID using uuid}
 
-  s.add_dependency 'activerecord', '~> 3.0.4'
-  s.add_dependency 'activesupport', '~> 3.0.4'
+  s.add_dependency 'activerecord', '~> 3.0'
+  s.add_dependency 'activesupport', '~> 3.0'
   s.add_dependency 'uuidtools'
   s.add_dependency 'sqlite3'
 
