@@ -26,7 +26,7 @@ def setup_db
   ActiveRecord::Base.silence do
     ActiveRecord::Schema.define(:version => 1) do
       create_table :dummy_with_uuid_extensions do |t|
-        t.integer :id
+        t.string :id
         t.string :foobar
       end
     end
